@@ -12,6 +12,6 @@ public class WebConfig implements WebMvcConfigurer {
         // Serve files from the uploads folder on disk
         // Works on both Windows and Linux
         registry.addResourceHandler("/uploads/**")
-                .addResourceLocations("file:uploads/");
+                .addResourceLocations("file:/tmp/uploads/");
     }
 }
