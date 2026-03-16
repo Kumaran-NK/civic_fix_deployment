@@ -1,0 +1,70 @@
+1️⃣ spring-boot-starter-security
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+🧠 What it does
+
+This gives your app:
+
+Login / authentication system
+
+Password encoders (BCrypt)
+
+Security filters
+
+Ability to block/allow endpoints
+
+
+2️⃣ jjwt-api
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-api</artifactId>
+    <version>0.11.5</version>
+</dependency>
+
+🧠 What it does
+
+This gives:
+
+Classes to create JWT tokens
+
+Interfaces for signing & parsing tokens
+
+
+3️⃣ jjwt-impl (runtime)
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-impl</artifactId>
+    <version>0.11.5</version>
+    <scope>runtime</scope>
+</dependency>
+
+🧠 What it does
+
+This is the actual engine that:
+
+Signs tokens
+
+Verifies tokens
+
+Does the math & crypto
+
+
+4️⃣ jjwt-jackson (runtime)
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-jackson</artifactId>
+    <version>0.11.5</version>
+    <scope>runtime</scope>
+</dependency>
+
+🧠 What it does
+
+Converts Java objects → JSON inside JWT
+
+Uses Jackson (which Spring already uses)
+
+
+Source : https://mvnrepository.com/
